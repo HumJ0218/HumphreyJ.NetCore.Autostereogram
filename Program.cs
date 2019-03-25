@@ -44,7 +44,6 @@ namespace HumphreyJ.NetCore.Autostereogram.Test
                 Console.WriteLine("  " + string.Join("", m));
             });
             Console.WriteLine();
-
         }
     }
 }
