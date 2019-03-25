@@ -2,10 +2,8 @@
 
 namespace HumphreyJ.NetCore.Autostereogram
 {
-
     public class Autostereogram<T>
     {
-
         public T[][] Pattern => pattern.Data;
         public int[][] Map => map.Data;
         public T[][] Photogram => photogram.Data;
@@ -42,8 +40,6 @@ namespace HumphreyJ.NetCore.Autostereogram
                 }
             }
             return photogram;
-
         }
-
     }
 }
